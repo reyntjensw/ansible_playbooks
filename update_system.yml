@@ -7,7 +7,7 @@
     reboot_timeout: 600
   tasks:
     # Upgrade RHEL family OS packages
-    - name: Upgrade RHEL Family OS packages
+    - name: Update RHEL Family OS cache
       yum:
         update_cache: yes
     - name: Upgrade RHEL Family OS packages
